@@ -56,9 +56,8 @@ class MainActivity : ComponentActivity() {
                 ) {
                     val windowSize = calculateWindowSizeClass(this)
                     SportsApp(
-                        windowSize = windowSize.widthSizeClass,
-                        onBackPressed = { finish() }
-
+//                        windowSize = windowSize.widthSizeClass,
+//                        onBackPressed = { finish() }
                     )
                 }
             }
